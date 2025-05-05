@@ -47,9 +47,9 @@ function updateTabs(tab) {
   let text=document.querySelectorAll('.text');
   if (tab==1){
     imgs.forEach((image) => {
-      let newSrc=['../BGMI/images/miniImg1.svg','../BGMI/images/miniImg2.svg','../BGMI/images/miniImg3.svg',
-        '../BGMI/images/miniImg4.svg','../BGMI/images/miniImg5.svg','../BGMI/images/miniImg6.svg',
-        '../BGMI/images/miniImg7.svg','../BGMI/images/miniImg8.svg'];
+      let newSrc=['images/miniImg1.svg','images/miniImg2.svg','images/miniImg3.svg',
+        'images/miniImg4.svg','images/miniImg5.svg','images/miniImg6.svg',
+        'images/miniImg7.svg','images/miniImg8.svg'];
        
         })
         links.forEach((link) => {
@@ -75,9 +75,9 @@ function updateTabs(tab) {
   
   if (tab==2) {
     imgs.forEach((image) => {
-      let newSrc=['../BGMI/images/miniImg10.svg','../BGMI/images/miniImg11.svg','../BGMI/images/miniImg12.svg',
-        '../BGMI/images/miniImg13.svg','../BGMI/images/miniImg14.svg','../BGMI/images/miniImg15.svg',
-        '../BGMI/images/miniImg16.svg','../BGMI/images/miniImg17.svg'];
+      let newSrc=['images/miniImg10.svg','images/miniImg11.svg','images/miniImg12.svg',
+        'images/miniImg13.svg','images/miniImg14.svg','images/miniImg15.svg',
+        'images/miniImg16.svg','images/miniImg17.svg'];
       //imgs[index].src=newSrc[index];
       for(let i=0;i<8;i++){
         imgs[i].src=newSrc[i];
@@ -104,9 +104,9 @@ function updateTabs(tab) {
   console.log(tab);
   if (tab==3){
     imgs.forEach((image) => {
-      let newSrc=['../BGMI/images/miniImg18.svg','../BGMI/images/miniImg19.svg','../BGMI/images/miniImg20.svg',
-        '../BGMI/images/miniImg21.svg','../BGMI/images/miniImg22.svg','../BGMI/images/miniImg23.svg',
-        '../BGMI/images/miniImg24.svg','../BGMI/images/miniImg25.svg','../BGMI/images/miniImg26.svg'];
+      let newSrc=['images/miniImg18.svg','images/miniImg19.svg','images/miniImg20.svg',
+        'images/miniImg21.svg','images/miniImg22.svg','images/miniImg23.svg',
+        'images/miniImg24.svg','images/miniImg25.svg','images/miniImg26.svg'];
       //imgs[index].src=newSrc[index];
       for(let i=0;i<9;i++){
         imgs[i].src=newSrc[i];
@@ -128,9 +128,9 @@ function updateTabs(tab) {
   }
   if (tab==4){
     imgs.forEach((image) => {
-      let newSrc=['../BGMI/images/miniImg27.svg','../BGMI/images/miniImg28.svg',
-        '../BGMI/images/miniImg29.svg','../BGMI/images/miniImg30.svg','../BGMI/images/miniImg31.svg',
-        '../BGMI/images/miniImg32.svg','../BGMI/images/miniImg33.svg','../BGMI/images/miniImg34.svg'];
+      let newSrc=['images/miniImg27.svg','images/miniImg28.svg',
+        'images/miniImg29.svg','images/miniImg30.svg','images/miniImg31.svg',
+        'images/miniImg32.svg','images/miniImg33.svg','images/miniImg34.svg'];
       //imgs[index].src=newSrc[index];
       for(let i=0;i<8;i++){
         imgs[i].src=newSrc[i];

@@ -50,7 +50,10 @@ function updateTabs(tab) {
       let newSrc=['images/miniImg1.svg','images/miniImg2.svg','images/miniImg3.svg',
         'images/miniImg4.svg','images/miniImg5.svg','images/miniImg6.svg',
         'images/miniImg7.svg','images/miniImg8.svg'];
-       
+        for(let i=0;i<9;i++){
+        imgs[i].src=newSrc[i];
+
+        }
         })
         links.forEach((link) => {
           let newLink=['Academic Planner','Academic Result','Bal Vatika','Nipun Lakshay'
@@ -67,10 +70,7 @@ function updateTabs(tab) {
           }
         })
       //imgs[index].src=newSrc[index];
-      for(let i=0;i<9;i++){
-        imgs[i].src=newSrc[i];
-
-      }
+     
     }
   
   if (tab==2) {

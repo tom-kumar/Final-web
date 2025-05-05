@@ -1,0 +1,202 @@
+
+<html >
+<head>
+    <meta charset="UTF-">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/NavBar -->
+    <header>
+
+        <div class="logo">
+            <img src="logopng-removebg.png" alt="School Logo">
+            <span>PM SHRI KV HARSINGHPURA</span>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#teachers">Teachers</a>
+            <a href="#students">Students</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+
+       
+    </header>
+    <section id ="home">
+        <img src="images/Pm Shri 1.png" alt="School Logo">
+    </section>
+
+    <div class="table">
+        <div class="header">
+            <h1>Explore Things</h1>
+        </div>
+        <div class="Tabs">
+            <button class="Academic" id = 'active'onclick="updateTabs(1)">ACADEMIC OVERVIEW</button>
+            <button class="INFRASTRUCTURE" onclick="updateTabs(2)">INFRASTRUCTURE</button>
+            <button class="ACTIVITIES" onclick="updateTabs(3)">ACTIVITIES</button>
+            <button class="Initiative" onclick="updateTabs(4)">INITIATIVES</button>
+        </div>
+       
+        <div class="grid">
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg1.svg" alt="Academic Planner" />
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/academic-planner/"> Academic Planner </a>
+                </h2>
+                <p class="text" >ACADEMIC PLANNER</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg2.svg" alt="Academic Result">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/academic-result/">Academic Result</a>
+                </h2>
+                <p class="text">Academic Result</p>
+            </div>
+            <div class="miniIcon">
+                <img allign="left" class="image" src="../BGMI/images/miniImg3.svg" alt="Bal Vatika">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/Bal Vatika/">Bal Vatika</a>
+                </h2>
+                <p class="text">Pre-primary education program</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg4.svg" alt="Nipun Lakshay">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/Nipun Lakshay/">Nipun Lakshay</a>
+                </h2>
+                <p class="text">National Initiative for Proficiency in Reading with Understanding...</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg5.svg" alt="Compensation of Academic Loss Programme">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/Compensation of Academic Loss Programme/">
+                        Compensation of Academic Loss Programme</a>
+                </h2>
+                <p class="text">Ensures continuity of studies.</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg6.svg" alt="Study Materials">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/Study Materials/">Study Materials</a>
+                </h2>
+                <p class="text">Study material provided by the school</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg7.svg" alt="Workshops & Trainings" >
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/Workshops-trainings/">Workshops & Trainings</a>
+                </h2>
+                <p class="text">Workshops and trainings conducted</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg8.svg" alt="Student Council">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/student-council/">Student Council</a>
+                </h2>
+                <p class="text">STUDENT COUNCIL</p>
+            </div>
+            <div class="miniIcon">
+                <img class="image" src="../BGMI/images/miniImg9.svg" alt="Know your School">
+                <h2 class="heading4-title-blanck">
+                    <a class="link" href="https://harsingpura.kvs.ac.in/know-your-school/">Know your School</a>
+                </h2>
+                <p class="text">All about your school</p>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container">
+            <h1>Glorious Moments</h1>
+            <div class="button-container">
+                <button class="btn active">PHOTOS</button>
+                
+            </div>
+            <div class="image-gallery">
+                <img src="../BGMI/images/Assembly 2.jpg" alt="Moment 1">
+                <img src="../BGMI/images/Assembly 3.jpg" alt="Moment 2">
+                <img src="../BGMI/images/Assembly 4.jpg" alt="Moment 3">
+            </div>
+           
+            <button class="view-all"><a href="https://harsingpura.kvs.ac.in/photo-gallery/">View All</a></button>
+        </div>
+
+
+    <section id='result'>
+    <div class="results-section">
+        <h1>School Results</h1>
+        <div class="tabs">
+            <button id="classX" class="active" onclick="updateResults(false)">CLASS X</button>
+            <button id="classXII" onclick="updateResults(true)">CLASS XII</button>
+        </div>
+
+        <div class="results">
+            <div class="result-card">
+                <div class="circle"><span class="percentage">100%</span></div>
+                <p class="year">Year of 2023-24</p>
+                <p class="data">Appeared: 45 | Passed: 45</p>
+            </div>
+            <div class="result-card">
+                <div class="circle"><span class="percentage">94.59%</span></div>
+                <p class="year">Year of 2022-23</p>
+                <p class="data">Appeared: 74 | Passed: 70</p>
+            </div>
+            <div class="result-card">
+                <div class="circle"><span class="percentage">92.31%</span></div>
+                <p class="year">Year of 2021-22</p>
+                <p class="data">Appeared: 78 | Passed: 72</p>
+            </div>
+            <div class="result-card">
+                <div class="circle"><span class="percentage">100%</span></div>
+                <p class="year">Year of 2020-21</p>
+                <p class="data">Appeared: 77 | Passed: 77</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<section id="contact">
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p><b>Email:</b> kvHarsinghpura@gmail.com <br/>
+            <b>Address:</b> Harsinghpura, Haryana <br/>
+            <b>Phone:</b> +91 9255066150
+        </p>
+      </div>
+  <hr/>
+    <div class="contact-form">
+        <h2>Feedback</h2>
+        <form action="#" method="POST">
+            
+            <input type="text" id="name" name="name" placeholder="Full Name" required>
+  
+            <input type="email" id="email" name="email" placeholder="Email" required>
+  
+            <textarea id="message" name="message" rows="4"  placeholder="Message" required></textarea>
+  
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+  
+  <hr/>
+      <section id="about">
+          <h2>About KV</h2>
+          <p>PM SHRI Kendriya Vidyalaya Harsinghpura was<br/> established in 2003. It is a Co-Ed school<br/> affiliated to CBSE.</p>
+          <b>Year of Establishment:</b> 2003<br/>
+          <b>School Area:</b> 50,459 Sq. Metres<br/>
+          <b>Parent Institution:</b> Kendriya Vidyalaya Sangathan
+      </section>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Our School. All rights reserved.</p>
+    </footer>
+  
+    
+
+<script src="school1.js">
+</script>
+</body>
+</html>

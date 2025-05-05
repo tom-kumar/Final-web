@@ -461,3 +461,68 @@ h1 {
 .view-all a {text-decoration: none;
    color: white;
 }
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .navigation, .Tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    margin-left: 0;
+  }
+
+  .view-all {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    justify-content: center;
+  }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .result-card {
+    width: 90%;
+  }
+
+  .contact-form, .contact-info {
+    width: 90%;
+  }
+
+  .btn, .view-all {
+    margin: 10px auto;
+    display: block;
+  }
+
+  section img {
+    height: auto;
+  }
+}
